@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sagasandlegends.web:
+    image: sagasandlegends.web
+    build:
+      context: .
+      dockerfile: SagasAndLegends.Web/Dockerfile
