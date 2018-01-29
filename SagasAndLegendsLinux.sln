@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagasAndLegends.Web", "SagasAndLegends.Web\SagasAndLegends.Web.csproj", "{78940D33-0381-4D48-9A67-44627F826A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagasAndLegends.Web", "SagasAndLegends.Web\SagasAndLegends.Web.csproj", "{78940D33-0381-4D48-9A67-44627F826A76}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{91134B0F-56C6-4A16-B34F-82C49BFE98F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagasAndLegends.Web.Tests", "SagasAndLegends.Web.Tests\SagasAndLegends.Web.Tests.csproj", "{D7A2ED4E-23B8-4B9F-8FB1-D15C2FA7EC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagasAndLegends.Services", "SagasAndLegends.Services\SagasAndLegends.Services.csproj", "{4F6064CF-1B82-419F-8E44-432408C1C8A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{91134B0F-56C6-4A16-B34F-82C49BFE98F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91134B0F-56C6-4A16-B34F-82C49BFE98F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91134B0F-56C6-4A16-B34F-82C49BFE98F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A2ED4E-23B8-4B9F-8FB1-D15C2FA7EC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A2ED4E-23B8-4B9F-8FB1-D15C2FA7EC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A2ED4E-23B8-4B9F-8FB1-D15C2FA7EC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A2ED4E-23B8-4B9F-8FB1-D15C2FA7EC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6064CF-1B82-419F-8E44-432408C1C8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6064CF-1B82-419F-8E44-432408C1C8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6064CF-1B82-419F-8E44-432408C1C8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6064CF-1B82-419F-8E44-432408C1C8A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
