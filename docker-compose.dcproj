@@ -5,7 +5,7 @@
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>91134b0f-56c6-4a16-b34f-82c49bfe98f5</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
-    <DockerServiceUrl>http://localhost:{ServicePort}/api/values</DockerServiceUrl>
+    <DockerServiceUrl>http://localhost:{ServicePort}/api/stories</DockerServiceUrl>
     <DockerServiceName>sagasandlegends.web</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
